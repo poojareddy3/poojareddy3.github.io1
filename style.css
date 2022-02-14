@@ -1,0 +1,23 @@
+body {
+    background-color: #56baed;
+}
+.selection-box {
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  background: white;
+
+}
+
+#select{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#playerx {
+    margin-right: 30px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}

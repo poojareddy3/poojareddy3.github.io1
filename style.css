@@ -1,23 +1,85 @@
+*{
+    font-family: 'poppins', sans-serif;
+    padding: 0;
+    margin: 10;
+    box-sizing: border-box;
+}
 body {
     background-color: #56baed;
 }
+header {
+    color: #fff;
+}
+#welcome {
+    position: absolute;
+    top: 20%;
+    left: 36%;
+    color: white;
+    font-weight: bolder;
+    font-size: x-large;
+}
 .selection-box {
-  position:absolute;
+ position: absolute;
   top: 50%;
   left: 50%;
-  background: white;
-
+  background: #fff;
+  border: none;
+  display: block;
+  transform: translate(-50%, -50%);
+  padding: 20px 25px 25px;
+  max-width: 340px;
+  width: 100%;
+  height: 175px;
+  border-radius: 10px;
 }
 
 #select{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 15px;
+    margin-top: 22px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    font-weight: 600;
+    font-size: 22px;
+    text-align: center;
 }
 
-#playerx {
-    margin-right: 30px;
-    margin-left: 25px;
-    margin-bottom: 20px;
+#playerx,#playero{
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: large;
+    background-color: #56baed;
+    color: #fff;
+    width: 35%;
+    height:40px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
 }
+
+#players button{
+    transition: all 0.3s ease;
+    padding: 10px 0;
+ }
+ 
+ #players button:hover {
+     transform: scale(0.96);
+ }
+
+ .play{
+    background-color: #fff;
+    position: absolute;
+    top: 65%;
+    left: 54%;
+    transform: scale(0.96);
+    border: none;
+    height: 40px;
+    width: 100px;
+    font-weight: 600;
+    font-size: large;
+    border-radius: 5px;
+    padding: 10px 0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+ }

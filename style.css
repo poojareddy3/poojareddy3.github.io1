@@ -18,6 +18,13 @@ header {
     font-weight: bolder;
     font-size: x-large;
 }
+
+.selection-box, .game-board {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 .selection-box {
  position: absolute;
   top: 50%;
@@ -25,7 +32,6 @@ header {
   background: #fff;
   border: none;
   display: block;
-  transform: translate(-50%, -50%);
   padding: 20px 25px 25px;
   max-width: 340px;
   width: 100%;
@@ -83,3 +89,35 @@ header {
     cursor: pointer;
     transition: all 0.3s ease;
  }
+
+ .game-board .players-turns{
+     background-color: #fff;
+     padding: 7px;
+     border-radius: 5px;
+ }
+ .players span {
+     width: fit-content;
+     font-size: x-large;
+     block-size: fit-content;
+ }
+ span{
+     padding: 10px;
+     border-radius: 5px;
+     margin-left: 15px;
+ }
+ .board {
+     margin-top: 10px;
+ }
+ .board section {
+     display: flex;
+ }
+
+.board section .cells{
+     background-color: #fff;
+     display: block;
+     height: 90px;
+     width: 90px;
+     margin: 2px;
+     border-radius: 5px;
+}
+ 
